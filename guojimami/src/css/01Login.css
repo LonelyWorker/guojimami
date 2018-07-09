@@ -1,0 +1,85 @@
+#lx{
+    position:relative;
+}
+#lx .head{
+    border-bottom: 1px solid #D7D7D7;
+    margin-top: 25px;
+}
+/*中间部分*/
+#lx .content{
+    margin:30px 32px;
+}      /*中间内边距设置*/
+#lx .main_r{
+    width: 380px;
+}     /*中间登录框设置*/
+#lx .main_r .tz{
+    color: #E19619;
+}     /*登录框a链接设置*/
+    
+#lx .main_r .login_status{
+    margin-top:20px;
+    width: 100%;
+    height: 36px;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+#lx .main_r .login_status .btn{
+    width:189px;
+    height: 100%;
+    float: left;
+    cursor: pointer;
+    background-color: #FAFAFA;
+}
+#lx .main_r .login_status .btn:first-child{
+    background-color: #C30D23;
+    border-radius:4px 0 0 4px;
+}
+#lx .main_r form{
+    padding:25px 4px;
+}
+#lx .main_r form input{
+    border:1px solid #ccc;
+    height:38px;
+    display: block;
+    width: 240px;
+}
+#lx .main_r form div{
+    margin-bottom: 23px;
+}
+#lx .main_r form .code input,#lx .main_r form .code02 input{
+    width: 120px;
+}
+#lx .main_r form .login_btn{
+    background:url('../img/lglogin.jpg') no-repeat;
+    border:0 none;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+#lx .main_r .brank .icon_span{
+    margin-right: 30px;
+    color:#9696B0;
+}
+
+#lx .main_r .brank .icon_span img{
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+#lx .main_r form .sever{
+    margin-top:20px;
+}
+#lx .main_r form .sever input{
+    width: 20px;
+    height: 20px;
+    float:left;
+    margin-right:5px;
+}
+
+
